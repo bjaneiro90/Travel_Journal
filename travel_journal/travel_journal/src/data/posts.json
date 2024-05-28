@@ -1,0 +1,87 @@
+[
+    {
+      "id": "a1b2c3d4",
+      "title": "Viagem a Espanha",
+      "description": "This is the description for post 1.",
+      "likes": 150,
+      "comments": 20,
+      "mainImage": "https://picsum.photos/seed/pic1/800/600",
+      "createdAt": "2024-04-01T10:00:00Z",
+      "user": {
+        "id": "u1a2b3c4",
+        "name": "Alice Johnson",
+        "avatarURL": "https://i.pravatar.cc/150?img=1"
+      }
+    },
+    {
+      "id": "e5f6g7h8",
+      "title": "Viagem à Croácia",
+      "description": "This is the description for post 2.",
+      "likes": 200,
+      "comments": 35,
+      "mainImage": "https://picsum.photos/seed/pic2/800/600",
+      "createdAt": "2024-04-02T11:00:00Z",
+      "user": {
+        "id": "u5d6e7f8",
+        "name": "Bob Smith",
+        "avatarURL": "https://i.pravatar.cc/150?img=2"
+      }
+    },
+    {
+      "id": "i9j0k1l2",
+      "title": "Viagem a Portugal",
+      "description": "This is the description for post 3.",
+      "likes": 120,
+      "comments": 15,
+      "mainImage": "https://picsum.photos/seed/pic27/800/600",
+      "createdAt": "2024-04-03T12:00:00Z",
+      "user": {
+        "id": "u9g0h1i2",
+        "name": "Carol Williams",
+        "avatarURL": "https://i.pravatar.cc/150?img=3"
+      }
+    },
+    {
+      "id": "m3n4o5p6",
+      "title": "Viagem a Cabo Verde",
+      "description": "This is the description for post 4.",
+      "likes": 175,
+      "comments": 25,
+      "mainImage": "https://picsum.photos/seed/pic4/800/600",
+      "createdAt": "2024-04-04T13:00:00Z",
+      "user": {
+        "id": "u3j4k5l6",
+        "name": "David Brown",
+        "avatarURL": "https://i.pravatar.cc/150?img=4"
+      }
+    },
+    {
+      "id": "q7r8s9t0",
+      "title": "Viagem a Jerusalém",
+      "description": "This is the description for post 5.",
+      "likes": 220,
+      "comments": 30,
+      "mainImage": "https://picsum.photos/seed/pic5/800/600",
+      "createdAt": "2024-04-05T14:00:00Z",
+      "user": {
+        "id": "u7m8n9o0",
+        "name": "Eva Green",
+        "avatarURL": "https://i.pravatar.cc/150?img=5"
+      }
+    },
+    {
+      "id": "u1v2w3x4",
+      "title": "Viagem ao Zimbabué",
+      "description": "This is the description for post 6.",
+      "likes": 190,
+      "comments": 40,
+      "mainImage": "https://picsum.photos/seed/pic6/800/600",
+      "createdAt": "2024-04-06T15:00:00Z",
+      "user": {
+        "id": "u4p5q6r7",
+        "name": "Frank Miller",
+        "avatarURL": "https://i.pravatar.cc/150?img=6"
+      }
+    }
+  ]
+  

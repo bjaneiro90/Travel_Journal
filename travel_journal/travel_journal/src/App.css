@@ -1,0 +1,81 @@
+:root {
+  --body-font-family: "Roboto", sans-serif;
+  --header-font-family: "Montserrat", sans-serif;
+}
+
+body {
+  overflow: auto;
+}
+
+/* Esconde a barra de rolagem no WebKit (Chrome, Safari) */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.card-div {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 5rem;
+  height: 7rem;
+  margin: 5rem;
+}
+
+.main-div {
+  
+  height: 80%;
+}
+
+
+.exer_6 {
+  display: inline-block;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid black;
+  background-color: goldenrod;
+}
+
+
+img {
+  display: block;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.botao1 {
+background-color: green;
+}
+
+.botao2 {
+  background-color: red;
+}
+
+.botao3 {
+    background-color: yellow;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

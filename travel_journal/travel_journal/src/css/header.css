@@ -1,0 +1,132 @@
+.main-header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: goldenrod;
+    width: 100%;
+    height: 5rem;
+    box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.5);
+    font-family: var(--header-font-family);
+}
+
+.ham-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.ham-menu {
+    position: fixed;
+    background-color: goldenrod;
+    margin-top: 2.5rem;
+    top: 2.5rem;
+    left: -2.3rem;
+    width: 9rem;
+    height: 8rem;
+    box-shadow:  4px 2px -2px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    padding: 10px;
+    padding-bottom: 1rem;
+    border-bottom-right-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: none;
+}
+
+
+.ham-list {
+    list-style: none;
+    padding-bottom: 1rem;
+    
+}
+.ham-li {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
+    margin-top: 0.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.ham-prof-menu {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+ 
+    width: 7rem;
+    height: 8rem;
+    position: fixed;
+    top: 2.5rem;
+    right: 0rem;
+    background-color: goldenrod;
+    padding: 10px;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    border-bottom-left-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow:  4px 2px -2px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    border-top: none;
+}
+
+
+.ham-list-prof {
+    list-style: none;
+    padding-bottom: 1rem;
+    padding-left: 0rem;
+    
+}
+
+.ham-list-prof >li{
+    border-top: 1px solid black;
+    margin-top: 0.2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+.ham-list > li > a{
+    padding: 8px;
+
+}
+
+.classeUl {
+    display: flex;
+
+}
+
+.classeUl > li{
+    list-style: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.goku-div,
+.div-ham {
+    display: flex;
+    margin: 0.5rem;
+    align-items: center;
+}
+
+.goku-button {
+    height: 3rem;
+    width: 3rem;
+    background-image: url("../imagens/songoku.png");
+    border-radius: 3rem;
+    border-style: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.goku-picture {
+    width: 100%;
+    object-fit: cover;
+}
